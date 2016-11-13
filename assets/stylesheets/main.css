@@ -3,28 +3,25 @@ body {
 	font-family: Georgia, Serif;
 }
 
-h3 {
-	color: #333333;
-	font-family: Georgia, Serif;
+nav {
+position: relative;
+width: auto; /**adjust width as needed**/
+margin: 0 auto;
+padding: 0;
+text-align: center;
 }
 
-#header {
-	font-size: 40px;
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+nav li {
+	float: left;
 }
 
-li {
-    float: left;
-}
-
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -32,8 +29,17 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #111;
+}
+
+h3 {
+	color: #333333;
+	font-family: Georgia, Serif;
+}
+
+#header {
+	font-size: 40px;
 }
 
 div .barb {
