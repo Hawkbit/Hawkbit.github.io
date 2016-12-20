@@ -53,20 +53,25 @@ div .barb {
 }
 
 div .ytred {
-	font-size: 120px;
+	font-size: 100px;
 	color: #D60000;
 	text-align: center;
-	width: 1200px;
-	height: 1200px;
+
 	margin: 0 auto;
 }
 
+iframe {
+		text-align: center;
+		margin: 0 auto;
+}
 .ytred {
-	background: #085F00; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#085F00, #082400); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#085F00, #082400); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#085F00, #082400); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#085F00, #082400); /* Standard syntax */
+	background-image: linear-gradient(
+		to right,
+		#0E3608,
+		#1A610F,
+		#0E3608,
+		#1A610F,
+		#0E3608);
 }
 
 img {
