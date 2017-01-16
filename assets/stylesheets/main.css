@@ -103,14 +103,18 @@ img {
 }
 
 .ah_button {
+	  height: 150px;
+		width: 200px;
     background-color: #000; /* black */
     border: none;
+		margin: 10px;
     color: #49a886; /* weird green */
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 26px;
+    font-size: 12px;
+		font-weight: bold;
 }
 
 #zealot, #carnevale {
