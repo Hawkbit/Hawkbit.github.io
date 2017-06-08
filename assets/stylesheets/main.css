@@ -1,12 +1,11 @@
 body {
 	color: #333333;
 	font-family: 'Libre Baskerville', serif;
-	src: url("../Libre Baskerville.ttf") format('truetype');
 	margin: 0 auto;
 	width: 800px;
 }
 
-#colsplit {
+.colsplit {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
