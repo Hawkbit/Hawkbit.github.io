@@ -1,122 +1,19 @@
 body {
 	color: #333333;
-	font-family: Georgia, Serif;
-}
-
-nav {
-position: relative;
-width: auto; /**adjust width as needed**/
-margin: 0 auto;
-padding: 0;
-text-align: center;
-}
-
-nav ul {
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #333;
-}
-
-nav li {
-	float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #111;
-}
-
-h3 {
-	color: #333333;
-	font-family: Georgia, Serif;
-}
-
-#header {
-	font-size: 40px;
-}
-
-div .barb {
-	font-size: 200px;
-	color: #fff;
-	background-color: #222222;
-	text-align: center;
-	width: 500px;
-	height: 500px;
-	border-radius: 20px;
-}
-
-div .ytred {
-	font-size: 100px;
-	color: #D60000;
-	text-align: center;
-
+	font-family: 'Libre Baskerville', serif;
+	padding: 1em;
 	margin: 0 auto;
+	width: 800px;
 }
 
-iframe {
-		text-align: center;
-		margin: 0 auto;
-}
-.ytred {
-	background-image: linear-gradient(
-		to right,
-		#0E3608,
-		#1A610F,
-		#0E3608,
-		#1A610F,
-		#0E3608);
+
+
+#colsplit {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	padding: 10px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#snowflakeContainer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-.snowflake {
-    padding-left: 15px;
-    font-family: Cambria, Georgia, serif;
-    font-size: 14px;
-    line-height: 24px;
-    position: fixed;
-    color: #FFFFFF;
-    user-select: none;
-    z-index: 1000;
-}
-.snowflake:hover {
-    cursor: default;
-}
-
-.ah_button {
-	  height: 150px;
-		width: 200px;
-    background-color: #000; /* black */
-    border: none;
-		margin: 10px;
-    color: #49a886; /* weird green */
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-		font-weight: bold;
-}
-
-#zealot, #carnevale {
-	font-size: 50px;
+li {
+	list-style-type: lower-greek
 }

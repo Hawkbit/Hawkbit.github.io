@@ -1,3 +1,24 @@
+function eh_inv_rand() {
+  var arr = [
+    " Lola Hayes: The Actress",
+    " Akachi Onyele: The Shaman",
+    " Roland Banks",
+    " Wendy Adams",
+    " Agnes Baker"
+  ]
+
+  for (var i = arr.length -1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+  //return arr;
+
+  //var rand = arr[Math.floor(Math.random() * arr.length)];
+  document.getElementById("investigator").innerHTML = "Investigator List: " + arr;
+}
+
 function ah_notz_easy() {
     var arr = [
         "+1",
