@@ -12,5 +12,5 @@ body {
 }
 
 li {
-	list-style-type: lower-greek
+	list-style-type: decimal-leading-zero;
 }
