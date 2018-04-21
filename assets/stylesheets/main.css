@@ -19,13 +19,11 @@ li {
 	padding: 50px;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #222;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -35,17 +33,35 @@ li {
     font-size: 14px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #E8453B;
+    animation: colorchange 120s;
+    -webkit-animation: colorchange 120s;
     color: white;
 }
+
+@keyframes colorchange
+    {
+      0%   {background: #E8453B;}
+      25%  {background: purple;}
+      50%  {background: blue;}
+      75%  {background: purple;}
+      100% {background: #E8453B;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #E8453B;}
+      25%  {background: purple;}
+      50%  {background: blue;}
+      75%  {background: purple;}
+      100% {background: #E8453B;}
+    }
 
 .atype {
 	background-color: #eee;
