@@ -1,8 +1,13 @@
+/* Element level styles */
 body {
 	color: #333333;
 	font-family: 'Merriweather', serif;
 	margin: 0 auto;
-	width: 800px;
+	width: 960px;
+}
+
+header {
+
 }
 
 #colsplit {
@@ -11,12 +16,30 @@ body {
     column-count: 2;
 }
 
-li {
-	list-style-type: decimal-leading-zero;
+ul {
+	list-style: none;
 }
 
-.img_content {
-	padding: 50px;
+footer {
+    height: 20px;
+	font-size: 10px;
+    margin: 20px;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+}
+
+/* Class level styles */
+.yep_image {
+    margin: 50px;
+	padding: 20px;
+}
+
+.topnav a.active {
+    background-color: #E8453B;
+    animation: colorchange 120s;
+    -webkit-animation: colorchange 120s;
+    color: white;
 }
 
 .topnav {
@@ -45,6 +68,13 @@ li {
     color: white;
 }
 
+.section-header {
+    text-align: center;
+}
+
+/* ID level styles */
+
+/* Nav rotating colors */
 @keyframes colorchange
     {
       0%   {background: #E8453B;}
@@ -63,24 +93,19 @@ li {
       100% {background: #E8453B;}
     }
 
-.atype {
+.block-shade-1 {
 	background-color: #eee;
 	padding: 10px;
 }
-.btype {
+.block-shade-2 {
 	background-color: #ddd;
 	padding: 10px;
 }
-.ctype {
+.block-shade-3 {
 	background-color: #ccc;
 	padding: 10px;
 }
-.dtype {
+.block-shade-4 {
 	background-color: #bbb;
 	padding: 10px;
-}
-
-footer {
-	font-size: 10px;
-	margin: 20px;
 }
